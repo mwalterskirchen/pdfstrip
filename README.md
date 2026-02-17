@@ -5,7 +5,13 @@ Remove passwords from PDF files.
 ## Install
 
 ```bash
-uv sync
+pipx install pdfstrip
+```
+
+Or with `uv`:
+
+```bash
+uv tool install pdfstrip
 ```
 
 ## Usage

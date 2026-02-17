@@ -3,7 +3,12 @@ name = "pdfstrip"
 version = "0.1.0"
 description = "Remove passwords from PDF files"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.11"
+classifiers = [
+    "Environment :: Console",
+    "Topic :: Utilities",
+]
 dependencies = [
     "pikepdf>=9",
     "typer>=0.12",
